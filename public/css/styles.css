@@ -1,0 +1,37 @@
+:root {
+    --light-color: rgb(73, 157, 236);
+    --dark-color: rgb(141, 216, 72);
+}
+
+body {
+    background-color: var(--dark-color);
+    width: 100vw;
+    height:100vh;
+    justify-content: center;
+}
+
+#test {
+    border: 2px, solid, black
+}
+
+.current {
+    width: 100vw;
+    margin-left: 50%;
+    display: grid;
+    grid-template-columns: 1;
+    grid-template-rows: 1, 1, 1, 1;
+    font-size: large;
+    font-weight: 300;
+}
+.alerts {
+    color: red;
+    width: 25vw;
+    height: 100vh;
+    display: flexbox;
+    margin-top: 0px;
+    position: absolute;
+    text-overflow: clip;
+}
+
+
+

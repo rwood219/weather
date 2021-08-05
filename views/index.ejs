@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="/css/styles.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <h1>Weather</h1>
+
+<div class="current__weather">
+  <h2 id="current__weather__temp"></h2>
+</div>
+
+
+    <div id="main__hour__forcast__ctn">
+      <h1><%= new Date().getHours() % 12 || 12 %></h1>   
+    </div>
+
+
+    <!--alert sidebar section-->
+    <div class="alerts">
+      <h2>ALERT</h2>
+      <p id="alert-text"></p>
+    </div>
+
+    <script src="./js/main.js"></script>
+  </body>
+</html>
